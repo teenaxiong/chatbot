@@ -1,12 +1,22 @@
-<%-- 
-    Document   : chat
-    Created on : Mar 29, 2020, 1:12:29 PM
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 5, 2020, 11:22:42 AM
     Author     : Ryan
---%>
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 2, 2019, 2:20:03 PM
+    Author     : Ryan
+*/
 
-<%@include file="header.jsp"%>
-<style>
-   
 header {
 
 }
@@ -127,46 +137,7 @@ select {
     width: 1000px;
     height: 40px;
     font-size: 20px;
-  /*  margin-left: 58px;*/
+    margin-left: 58px;
 }
 
-
-
-
-</style>
-</head>
-<%@include file="navigation.jsp" %>
-<script language="javascript" type="text/javascript">
-    function addtext() {
-        var newtext = document.getElementById("testID").value;
-        var allText = document.getElementById("QuestionBox").value;
-        document.getElementById("QuestionBox").value = allText + "Your Question: \n" + newtext + "\n\n";
-
-    }
-</script>
-<div class="paragraph-body">
-
-    <br><br><br>
-    <h1 id = "chatLabel">Chat:</h1>
-    
-    <textarea name="chatlog" id="QuestionBox" placeholder="Your Question: " required readonly>${chatHistory}</textarea><br><br>
-    <form name="questionForm" method="post" action = "chat">
-        <div id = "theQuestion">
-            <div id = "QuestionBoxAndLabel">
-
-
-                <input type = "text" name = "userInput" placeholder="Enter text here" id = "testID">
-
-
-
-                <br><br>
-            </div>
-            <button type="submit" value = "Ask This Question" id="QuestionSubmitButton" onClick="addtext();">Send</button> 
-            <!--<input type = "hidden" name = "action">-->
-        </div>
-    </form>
-    <p id="backLink">Or click <a href="index.jsp">here</a> to go back.</p>
-
-</div>
-<%@include file="footer.jsp"%> 
 

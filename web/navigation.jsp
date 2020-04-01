@@ -1,23 +1,9 @@
 <%-- 
-    Document   : header_nav
-    Created on : Mar 17, 2020, 11:35:54 PM
+    Document   : navigation
+    Created on : Mar 31, 2020, 8:56:31 PM
     Author     : teena
 --%>
-<!doctype html>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<html lang="en">
-<head>
-	<!-- Required meta tags -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-	<title>Chatbot</title>
-</head>
-<body>
+<body class = "main_body">
 	<div class="wrapper">
 		<nav class="sidebar" id="mySidebar">
 		  <a href="#" class="closebtn" onclick="closeNav()">x</a>

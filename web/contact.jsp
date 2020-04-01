@@ -4,7 +4,10 @@
     Author     : teena
 --%>
 
-<%@include file="header_nav.jsp" %>
+<%@include file="header.jsp"%>
+
+</head>
+    <%@include file="navigation.jsp" %>
 			<div class="paragraph-body">
 			<h2>Contact</h2>
 
