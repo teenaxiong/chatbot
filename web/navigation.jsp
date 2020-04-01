@@ -3,7 +3,7 @@
     Created on : Mar 31, 2020, 8:56:31 PM
     Author     : teena
 --%>
-<body class = "main_body">
+<body>
 	<div class="wrapper">
 		<nav class="sidebar" id="mySidebar">
 		  <a href="#" class="closebtn" onclick="closeNav()">x</a>

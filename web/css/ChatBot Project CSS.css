@@ -29,15 +29,15 @@ html {
     height: 100%;
     text-align: center;
 }
-body {
+/*body {
     border: 1px dashed #6495ED;
     height: 100%;
   background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-background-size:400% 400%; /**if not set, animation will not loop */
+background-size:400% 400%; *if not set, animation will not loop 
 -webkit-animation: Gradient 15s ease infinite;
 -moz-animation: Gradient 15s ease infinite;
 animation: Gradient 15s ease infinite;
-}
+}*/
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
@@ -137,7 +137,7 @@ select {
     width: 1000px;
     height: 40px;
     font-size: 20px;
-    margin-left: 58px;
+   /* margin-left: 58px;*/
 }
 
 
